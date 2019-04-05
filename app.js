@@ -4,7 +4,6 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const app = express();
 
-
 // const router = require ('./routes/index')
 const userRouter = require('./routes/users')
 const zomatoRouter = require('./routes/zomato')

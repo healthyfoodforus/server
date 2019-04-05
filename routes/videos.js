@@ -1,6 +1,6 @@
 const router =  require('express').Router()
 const videoController = require('../controllers/videoControllers')
 
-router.get('/:keyword/:type', videoController.getVideos)
+router.post('/', videoController.getVideos)
 
 module.exports = router
